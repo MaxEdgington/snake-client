@@ -30,6 +30,32 @@ const handleUserInput = function (data) {
     console.log("Move: right");
     connection.write("Move: right");
   }
+
+  if (data === "e") {
+    console.log("SPEED");
+    connection.write("Say: ACTIVATING SPEED");
+  }
+
+  if (data === "r") {
+    console.log("Returning to snail's pace");
+    connection.write("Say: Returning to snail's pace");
+  }
+
+  if (data === "y") {
+    console.log("Yuli");
+    connection.write("Say: YULI, MY ARCH NEMESIS");
+  }
+
+  if (data === "u") {
+    console.log("Edwin");
+    connection.write("Say: EDWIN, MY ARCH NEMESIS");
+  }
+
+  if (data === "i") {
+    console.log("Curtis");
+    connection.write("Say: CURTIS, MY ARCH NEMESIS");
+  }
+d
 };
 
 module.exports = {
