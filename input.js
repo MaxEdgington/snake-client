@@ -55,7 +55,7 @@ const handleUserInput = function (data) {
     console.log("Curtis");
     connection.write("Say: CURTIS, MY ARCH NEMESIS");
   }
-d
+
 };
 
 module.exports = {
